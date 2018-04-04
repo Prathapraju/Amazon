@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="11" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testsuit" duration-ms="66910" started-at="2018-04-04T02:02:37Z" finished-at="2018-04-04T02:03:44Z">
+    <groups>
+    </groups>
+    <test name="Amazon" duration-ms="37910" started-at="2018-04-04T02:02:37Z" finished-at="2018-04-04T02:03:15Z">
+      <class name="Test.UserLogin">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:Test.UserLogin@bd8db5a]" name="getDriver" is-config="true" duration-ms="0" started-at="2018-04-04T02:02:42Z" finished-at="2018-04-04T02:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="getupd()[pri:0, instance:Test.UserLogin@bd8db5a]" name="getupd" duration-ms="624" started-at="2018-04-04T02:02:42Z" finished-at="2018-04-04T02:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getupd -->
+        <test-method status="PASS" signature="UsertearDown(org.testng.ITestResult)[pri:0, instance:Test.UserLogin@bd8db5a]" name="UsertearDown" is-config="true" duration-ms="4" started-at="2018-04-04T02:02:43Z" finished-at="2018-04-04T02:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getupd status=SUCCESS method=UserLogin.getupd()[pri:0, instance:Test.UserLogin@bd8db5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsertearDown -->
+        <test-method status="PASS" signature="userName()[pri:1, instance:Test.UserLogin@bd8db5a]" name="userName" duration-ms="52" started-at="2018-04-04T02:02:43Z" finished-at="2018-04-04T02:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userName -->
+        <test-method status="PASS" signature="UsertearDown(org.testng.ITestResult)[pri:0, instance:Test.UserLogin@bd8db5a]" name="UsertearDown" is-config="true" duration-ms="0" started-at="2018-04-04T02:02:43Z" finished-at="2018-04-04T02:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userName status=SUCCESS method=UserLogin.userName()[pri:1, instance:Test.UserLogin@bd8db5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsertearDown -->
+        <test-method status="PASS" signature="userNameData()[pri:2, instance:Test.UserLogin@bd8db5a]" name="userNameData" duration-ms="2590" started-at="2018-04-04T02:02:43Z" finished-at="2018-04-04T02:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userNameData -->
+        <test-method status="PASS" signature="passWord()[pri:3, instance:Test.UserLogin@bd8db5a]" name="passWord" duration-ms="104" started-at="2018-04-04T02:02:45Z" finished-at="2018-04-04T02:02:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passWord -->
+        <test-method status="PASS" signature="UsertearDown(org.testng.ITestResult)[pri:0, instance:Test.UserLogin@bd8db5a]" name="UsertearDown" is-config="true" duration-ms="0" started-at="2018-04-04T02:02:45Z" finished-at="2018-04-04T02:02:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userNameData status=SUCCESS method=UserLogin.userNameData()[pri:2, instance:Test.UserLogin@bd8db5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsertearDown -->
+        <test-method status="PASS" signature="passWordData()[pri:4, instance:Test.UserLogin@bd8db5a]" name="passWordData" duration-ms="29420" started-at="2018-04-04T02:02:46Z" finished-at="2018-04-04T02:03:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passWordData -->
+        <test-method status="PASS" signature="UsertearDown(org.testng.ITestResult)[pri:0, instance:Test.UserLogin@bd8db5a]" name="UsertearDown" is-config="true" duration-ms="0" started-at="2018-04-04T02:02:46Z" finished-at="2018-04-04T02:02:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passWord status=SUCCESS method=UserLogin.passWord()[pri:3, instance:Test.UserLogin@bd8db5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsertearDown -->
+        <test-method status="PASS" signature="UsertearDown(org.testng.ITestResult)[pri:0, instance:Test.UserLogin@bd8db5a]" name="UsertearDown" is-config="true" duration-ms="0" started-at="2018-04-04T02:03:15Z" finished-at="2018-04-04T02:03:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passWordData status=SUCCESS method=UserLogin.passWordData()[pri:4, instance:Test.UserLogin@bd8db5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsertearDown -->
+      </class> <!-- Test.UserLogin -->
+      <class name="Test.Home">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:Test.Home@78e67e0a]" name="getDriver" is-config="true" duration-ms="0" started-at="2018-04-04T02:02:37Z" finished-at="2018-04-04T02:02:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="signIN()[pri:0, instance:Test.Home@78e67e0a]" name="signIN" duration-ms="5055" started-at="2018-04-04T02:02:37Z" finished-at="2018-04-04T02:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIN -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.Home@78e67e0a]" name="tearDown" is-config="true" duration-ms="4" started-at="2018-04-04T02:02:42Z" finished-at="2018-04-04T02:02:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signIN status=SUCCESS method=Home.signIN()[pri:0, instance:Test.Home@78e67e0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.Home -->
+    </test> <!-- Amazon -->
+    <test name="Product" duration-ms="28936" started-at="2018-04-04T02:03:15Z" finished-at="2018-04-04T02:03:44Z">
+      <class name="Util.DriverClass">
+        <test-method status="PASS" signature="webDriverInitiate()[pri:0, instance:Util.DriverClass@3043fe0e]" name="webDriverInitiate" is-config="true" duration-ms="13258" started-at="2018-04-04T02:02:24Z" finished-at="2018-04-04T02:02:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webDriverInitiate -->
+      </class> <!-- Util.DriverClass -->
+      <class name="Test.ProductSearch">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:Test.ProductSearch@38bc8ab5]" name="getDriver" is-config="true" duration-ms="8" started-at="2018-04-04T02:03:15Z" finished-at="2018-04-04T02:03:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="searchProduct()[pri:1, instance:Test.ProductSearch@38bc8ab5]" name="searchProduct" duration-ms="20755" started-at="2018-04-04T02:03:15Z" finished-at="2018-04-04T02:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.ProductSearch@38bc8ab5]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-04T02:03:36Z" finished-at="2018-04-04T02:03:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=ProductSearch.searchProduct()[pri:1, instance:Test.ProductSearch@38bc8ab5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="primeCCheck()[pri:3, instance:Test.ProductSearch@38bc8ab5]" name="primeCCheck" duration-ms="397" started-at="2018-04-04T02:03:36Z" finished-at="2018-04-04T02:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- primeCCheck -->
+        <test-method status="PASS" signature="deliveryCheck()[pri:4, instance:Test.ProductSearch@38bc8ab5]" name="deliveryCheck" duration-ms="3052" started-at="2018-04-04T02:03:36Z" finished-at="2018-04-04T02:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deliveryCheck -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.ProductSearch@38bc8ab5]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-04T02:03:36Z" finished-at="2018-04-04T02:03:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=primeCCheck status=SUCCESS method=ProductSearch.primeCCheck()[pri:3, instance:Test.ProductSearch@38bc8ab5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.ProductSearch@38bc8ab5]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-04T02:03:39Z" finished-at="2018-04-04T02:03:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deliveryCheck status=SUCCESS method=ProductSearch.deliveryCheck()[pri:4, instance:Test.ProductSearch@38bc8ab5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="minMaxClick()[pri:5, instance:Test.ProductSearch@38bc8ab5]" name="minMaxClick" duration-ms="4704" started-at="2018-04-04T02:03:39Z" finished-at="2018-04-04T02:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minMaxClick -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.ProductSearch@38bc8ab5]" name="tearDown" is-config="true" duration-ms="4" started-at="2018-04-04T02:03:44Z" finished-at="2018-04-04T02:03:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=minMaxClick status=SUCCESS method=ProductSearch.minMaxClick()[pri:5, instance:Test.ProductSearch@38bc8ab5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.ProductSearch -->
+    </test> <!-- Product -->
+  </suite> <!-- testsuit -->
+</testng-results>

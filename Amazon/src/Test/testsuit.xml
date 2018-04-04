@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name= "testsuit">
+	<test name= "Amazon">
+		<classes>
+			<class name="Util.DriverClass"/>
+			<class name="Test.Home"/>
+			<class name="Test.UserLogin"/>
+			</classes>	
+	</test>
+	
+	<test name= "Product">
+		<classes>
+			<class name="Test.ProductSearch"/>
+			</classes>	
+	</test>
+</suite>

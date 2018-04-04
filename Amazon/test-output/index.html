@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-testsuit">
+              <span class="suite-name border-passed">testsuit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-testsuit">
+                    <span>E:\Selenium_workspace\Oxygen\Amazon\src\Test\testsuit.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-testsuit">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-testsuit">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-testsuit">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-testsuit">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-testsuit">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-testsuit">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-testsuit" class="hide-methods passed suite-testsuit"> (hide)</a> <!-- hide-methods passed suite-testsuit -->
+                      <a href="#" panel-name="suite-testsuit" class="show-methods passed suite-testsuit"> (show)</a> <!-- show-methods passed suite-testsuit -->
+                    </span>
+                    <div class="method-list-content passed suite-testsuit">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuit" title="Test.ProductSearch" hash-for-method="deliveryCheck">deliveryCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuit" title="Test.UserLogin" hash-for-method="getupd">getupd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuit" title="Test.ProductSearch" hash-for-method="minMaxClick">minMaxClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuit" title="Test.UserLogin" hash-for-method="passWord">passWord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuit" title="Test.UserLogin" hash-for-method="passWordData">passWordData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuit" title="Test.ProductSearch" hash-for-method="primeCCheck">primeCCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuit" title="Test.ProductSearch" hash-for-method="searchProduct">searchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuit" title="Test.Home" hash-for-method="signIN">signIN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuit" title="Test.UserLogin" hash-for-method="userName">userName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuit" title="Test.UserLogin" hash-for-method="userNameData">userNameData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-testsuit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-testsuit" class="panel testsuit">
+          <div class="suite-testsuit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.ProductSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deliveryCheck">
+                  </a> <!-- deliveryCheck -->
+                  <span class="method-name">deliveryCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minMaxClick">
+                  </a> <!-- minMaxClick -->
+                  <span class="method-name">minMaxClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="primeCCheck">
+                  </a> <!-- primeCCheck -->
+                  <span class="method-name">primeCCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProduct">
+                  </a> <!-- searchProduct -->
+                  <span class="method-name">searchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testsuit-class-passed -->
+          <div class="suite-testsuit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.UserLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getupd">
+                  </a> <!-- getupd -->
+                  <span class="method-name">getupd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passWord">
+                  </a> <!-- passWord -->
+                  <span class="method-name">passWord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passWordData">
+                  </a> <!-- passWordData -->
+                  <span class="method-name">passWordData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userName">
+                  </a> <!-- userName -->
+                  <span class="method-name">userName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userNameData">
+                  </a> <!-- userNameData -->
+                  <span class="method-name">userNameData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testsuit-class-passed -->
+          <div class="suite-testsuit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.Home</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIN">
+                  </a> <!-- signIN -->
+                  <span class="method-name">signIN</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testsuit-class-passed -->
+        </div> <!-- panel testsuit -->
+        <div panel-name="test-xml-testsuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Selenium_workspace\Oxygen\Amazon\src\Test\testsuit.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;testsuit&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Amazon&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Util.DriverClass&quot;/&gt;
+      &lt;class name=&quot;Test.Home&quot;/&gt;
+      &lt;class name=&quot;Test.UserLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Amazon --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Product&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.ProductSearch&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Product --&gt;
+&lt;/suite&gt; &lt;!-- testsuit --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-testsuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for testsuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Amazon (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Product (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-testsuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for testsuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-testsuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for testsuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_testsuit');
+function tableData_testsuit() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'passWordData')
+data.setCell(0, 2, 'Test.UserLogin')
+data.setCell(0, 3, 29420);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchProduct')
+data.setCell(1, 2, 'Test.ProductSearch')
+data.setCell(1, 3, 20755);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'signIN')
+data.setCell(2, 2, 'Test.Home')
+data.setCell(2, 3, 5055);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'minMaxClick')
+data.setCell(3, 2, 'Test.ProductSearch')
+data.setCell(3, 3, 4704);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'deliveryCheck')
+data.setCell(4, 2, 'Test.ProductSearch')
+data.setCell(4, 3, 3052);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'userNameData')
+data.setCell(5, 2, 'Test.UserLogin')
+data.setCell(5, 3, 2590);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getupd')
+data.setCell(6, 2, 'Test.UserLogin')
+data.setCell(6, 3, 624);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'primeCCheck')
+data.setCell(7, 2, 'Test.ProductSearch')
+data.setCell(7, 3, 397);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'passWord')
+data.setCell(8, 2, 'Test.UserLogin')
+data.setCell(8, 3, 104);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'userName')
+data.setCell(9, 2, 'Test.UserLogin')
+data.setCell(9, 3, 52);
+window.suiteTableData['testsuit']= { tableData: data, tableDiv: 'times-div-testsuit'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-testsuit">
+              </div> <!-- times-div-testsuit -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-testsuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for testsuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-testsuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test.ProductSearch</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">searchButton</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-testsuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Util.DriverClass</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">webDriverInitiate</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Home</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getDriver</span>
+                <span class="method-start">13273 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">signIN</span>
+                <span class="method-start">13288 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=signIN status=SUCCESS method=Home.signIN()[pri:0, instance:Test.Home@78e67e0a] outp...)</span>
+                <span class="method-start">18350 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.UserLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getDriver</span>
+                <span class="method-start">18358 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getupd</span>
+                <span class="method-start">18358 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">UsertearDown([TestResult name=getupd status=SUCCESS method=UserLogin.getupd()[pri:0, instance:Test.UserLogin@bd8d...)</span>
+                <span class="method-start">18982 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">userName</span>
+                <span class="method-start">18986 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">UsertearDown([TestResult name=userName status=SUCCESS method=UserLogin.userName()[pri:1, instance:Test.UserLogin@...)</span>
+                <span class="method-start">19038 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">userNameData</span>
+                <span class="method-start">19038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">UsertearDown([TestResult name=userNameData status=SUCCESS method=UserLogin.userNameData()[pri:2, instance:Test.Us...)</span>
+                <span class="method-start">21632 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">passWord</span>
+                <span class="method-start">21632 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">UsertearDown([TestResult name=passWord status=SUCCESS method=UserLogin.passWord()[pri:3, instance:Test.UserLogin@...)</span>
+                <span class="method-start">21740 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">passWordData</span>
+                <span class="method-start">21740 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">UsertearDown([TestResult name=passWordData status=SUCCESS method=UserLogin.passWordData()[pri:4, instance:Test.Us...)</span>
+                <span class="method-start">51168 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.ProductSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getDriver</span>
+                <span class="method-start">51236 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchProduct</span>
+                <span class="method-start">51244 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=searchProduct status=SUCCESS method=ProductSearch.searchProduct()[pri:1, instance:T...)</span>
+                <span class="method-start">72003 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">primeCCheck</span>
+                <span class="method-start">72003 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=primeCCheck status=SUCCESS method=ProductSearch.primeCCheck()[pri:3, instance:Test....)</span>
+                <span class="method-start">72404 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">deliveryCheck</span>
+                <span class="method-start">72404 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=deliveryCheck status=SUCCESS method=ProductSearch.deliveryCheck()[pri:4, instance:T...)</span>
+                <span class="method-start">75456 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">minMaxClick</span>
+                <span class="method-start">75460 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=minMaxClick status=SUCCESS method=ProductSearch.minMaxClick()[pri:5, instance:Test....)</span>
+                <span class="method-start">80164 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
