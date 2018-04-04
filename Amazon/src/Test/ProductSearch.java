@@ -28,7 +28,7 @@ public class ProductSearch {
 	  /*ProductPage.TopPage.searchBox(driver).sendKeys("Shoes");
 	  ProductPage.TopPage.searchBox(driver).sendKeys(Keys.ENTER);*/
 	}
-  @Test(enabled=false)
+  @Test(enabled=true)
  	public void searchButton()
  	{
  	  ProductPage.TopPage.searchClick.submit();
