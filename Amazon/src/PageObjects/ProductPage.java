@@ -20,6 +20,14 @@ public class ProductPage
 		@FindBy(xpath="//input[@class='nav-input']")
 		public static WebElement searchClick;
 		
+		@FindBy(name="s-ref-checkbox-2470955011")
+		public static WebElement primeCheckbox;
+		
+		@FindBy(xpath="//input[@name='s-ref-checkbox-8308921011']")
+		public static WebElement deliveryCheckbox;
+		
+		@FindBy(linkText="$50 to $100")
+		public static WebElement minMaxAmt;
 				
 		/* public static  WebElement searchBox(WebDriver driver)
 		{
@@ -31,7 +39,7 @@ public class ProductPage
 		{
 			WebElement element=driver.findElement(By.xpath("//input[@class='nav-input']"));
 			return element;
-		}*/
+		}
 	}
 
 	public static class SidePage
@@ -61,6 +69,6 @@ public class ProductPage
 			WebElement element1= WaitClass.impWait(driver, locator);
 			//WebElement element=driver.findElement(By.linkText("$50 to $100"));
 			return element1;
-		}
+		}*/
 	}
 }

@@ -9,10 +9,10 @@ import org.testng.annotations.Test;
 
 public class WaitClass {
   @Test
-  public static WebElement impWait(WebDriver driver,By locator) {
+  public static WebElement impWait(WebDriver driver, WebElement element) {
 	  WebDriverWait wait = new WebDriverWait(driver, 10);
-	 WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
-	  //WebElement element1 = wait.until(ExpectedConditions.elementToBeClickable(element));
-	  return element;
+	 //WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+	  WebElement element1 = wait.until(ExpectedConditions.elementToBeClickable(element));
+	  return element1;
   }
 }
