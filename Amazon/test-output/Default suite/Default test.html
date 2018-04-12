@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 03 19:07:45 CDT 2018</td>
+<td>Started on:</td><td>Tue Apr 10 15:36:04 CDT 2018</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (108 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (114 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -82,8 +82,8 @@ function toggleAllBoxes() {
 	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:71)
 	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:45)
 	at Util.WaitClass.impWait(WaitClass.java:13)
-	at PageObjects.ProductPage$SidePage.deliveryCheckbox(ProductPage.java:50)
-	at Test.ProductSearch.deliveryCheck(ProductSearch.java:44)
+	at PageObjects.ProductPage$SidePage.deliveryCheckbox(ProductPage.java:55)
+	at Test.ProductSearch.deliveryCheck(ProductSearch.java:48)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -109,15 +109,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace793315160", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace793315160'><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace1991313236", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1991313236'><pre>java.lang.NullPointerException
 	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
 	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:102)
 	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:71)
 	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:45)
 	at Util.WaitClass.impWait(WaitClass.java:13)
-	at PageObjects.ProductPage$SidePage.deliveryCheckbox(ProductPage.java:50)
-	at Test.ProductSearch.deliveryCheck(ProductSearch.java:44)
+	at PageObjects.ProductPage$SidePage.deliveryCheckbox(ProductPage.java:55)
+	at Test.ProductSearch.deliveryCheck(ProductSearch.java:48)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -145,12 +145,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>Test.ProductSearch@305fd85d</td></tr>
+<td>Test.ProductSearch@11438d26</td></tr>
 <tr>
 <td title='Test.ProductSearch.minMaxClick()'><b>minMaxClick</b><br>Test class: Test.ProductSearch</td>
 <td><div><pre>java.lang.NullPointerException
-	at PageObjects.ProductPage$SidePage.minMaxAmt(ProductPage.java:56)
-	at Test.ProductSearch.minMaxClick(ProductSearch.java:49)
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:102)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:71)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:45)
+	at Test.ProductSearch.minMaxClick(ProductSearch.java:53)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -176,10 +179,13 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1089504328", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1089504328'><pre>java.lang.NullPointerException
-	at PageObjects.ProductPage$SidePage.minMaxAmt(ProductPage.java:56)
-	at Test.ProductSearch.minMaxClick(ProductSearch.java:49)
+</pre></div><a href='#' onClick='toggleBox("stack-trace770911223", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace770911223'><pre>java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:102)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:71)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:45)
+	at Test.ProductSearch.minMaxClick(ProductSearch.java:53)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -207,12 +213,12 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>Test.ProductSearch@305fd85d</td></tr>
+<td>Test.ProductSearch@11438d26</td></tr>
 <tr>
 <td title='Test.ProductSearch.primeCCheck()'><b>primeCCheck</b><br>Test class: Test.ProductSearch</td>
 <td><div><pre>java.lang.NullPointerException
-	at PageObjects.ProductPage$SidePage.primeCheckbox(ProductPage.java:40)
-	at Test.ProductSearch.primeCCheck(ProductSearch.java:39)
+	at PageObjects.ProductPage$SidePage.primeCheckbox(ProductPage.java:43)
+	at Test.ProductSearch.primeCCheck(ProductSearch.java:43)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -238,10 +244,10 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1475491159", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1475491159'><pre>java.lang.NullPointerException
-	at PageObjects.ProductPage$SidePage.primeCheckbox(ProductPage.java:40)
-	at Test.ProductSearch.primeCCheck(ProductSearch.java:39)
+</pre></div><a href='#' onClick='toggleBox("stack-trace183284570", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace183284570'><pre>java.lang.NullPointerException
+	at PageObjects.ProductPage$SidePage.primeCheckbox(ProductPage.java:43)
+	at Test.ProductSearch.primeCCheck(ProductSearch.java:43)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -269,11 +275,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>Test.ProductSearch@305fd85d</td></tr>
+<td>Test.ProductSearch@11438d26</td></tr>
 <tr>
 <td title='Test.ProductSearch.searchProduct()'><b>searchProduct</b><br>Test class: Test.ProductSearch</td>
 <td><div><pre>java.lang.NullPointerException
-	at Test.ProductSearch.searchProduct(ProductSearch.java:26)
+	at Test.ProductSearch.searchProduct(ProductSearch.java:30)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -299,9 +305,9 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace615634843", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace615634843'><pre>java.lang.NullPointerException
-	at Test.ProductSearch.searchProduct(ProductSearch.java:26)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2050404090", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2050404090'><pre>java.lang.NullPointerException
+	at Test.ProductSearch.searchProduct(ProductSearch.java:30)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -329,7 +335,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>Test.ProductSearch@305fd85d</td></tr>
+<td>Test.ProductSearch@11438d26</td></tr>
 </table><p>
 </body>
 </html>

@@ -6,7 +6,10 @@
       <class name="Test.ProductSearch">
         <methods>
           <include name="getDriver"/>
+          <include name="deliveryCheck"/>
+          <include name="primeCCheck"/>
           <include name="minMaxClick"/>
+          <include name="searchProduct"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- Test.ProductSearch -->

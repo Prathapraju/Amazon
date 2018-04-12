@@ -28,6 +28,9 @@ public class ProductPage
 		
 		@FindBy(linkText="$50 to $100")
 		public static WebElement minMaxAmt;
+		
+		@FindBy(id="result_0")
+		public static WebElement Product;
 				
 		/* public static  WebElement searchBox(WebDriver driver)
 		{

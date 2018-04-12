@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="1" total="11" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="testsuit" duration-ms="66910" started-at="2018-04-04T02:02:37Z" finished-at="2018-04-04T02:03:44Z">
+  <suite name="testsuit" duration-ms="16719" started-at="2018-04-10T21:09:39Z" finished-at="2018-04-10T21:09:56Z">
     <groups>
     </groups>
-    <test name="Amazon" duration-ms="37910" started-at="2018-04-04T02:02:37Z" finished-at="2018-04-04T02:03:15Z">
+    <test name="Amazon" duration-ms="6422" started-at="2018-04-10T21:09:39Z" finished-at="2018-04-10T21:09:46Z">
       <class name="Test.UserLogin">
-        <test-method status="PASS" signature="getDriver()[pri:0, instance:Test.UserLogin@bd8db5a]" name="getDriver" is-config="true" duration-ms="0" started-at="2018-04-04T02:02:42Z" finished-at="2018-04-04T02:02:42Z">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:Test.UserLogin@bd8db5a]" name="getDriver" is-config="true" duration-ms="0" started-at="2018-04-10T21:09:40Z" finished-at="2018-04-10T21:09:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method status="PASS" signature="getupd()[pri:0, instance:Test.UserLogin@bd8db5a]" name="getupd" duration-ms="624" started-at="2018-04-04T02:02:42Z" finished-at="2018-04-04T02:02:43Z">
+        <test-method status="PASS" signature="getupd()[pri:0, instance:Test.UserLogin@bd8db5a]" name="getupd" duration-ms="693" started-at="2018-04-10T21:09:40Z" finished-at="2018-04-10T21:09:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getupd -->
-        <test-method status="PASS" signature="UsertearDown(org.testng.ITestResult)[pri:0, instance:Test.UserLogin@bd8db5a]" name="UsertearDown" is-config="true" duration-ms="4" started-at="2018-04-04T02:02:43Z" finished-at="2018-04-04T02:02:43Z">
+        <test-method status="PASS" signature="UsertearDown(org.testng.ITestResult)[pri:0, instance:Test.UserLogin@bd8db5a]" name="UsertearDown" is-config="true" duration-ms="1" started-at="2018-04-10T21:09:41Z" finished-at="2018-04-10T21:09:41Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UsertearDown -->
-        <test-method status="PASS" signature="userName()[pri:1, instance:Test.UserLogin@bd8db5a]" name="userName" duration-ms="52" started-at="2018-04-04T02:02:43Z" finished-at="2018-04-04T02:02:43Z">
+        <test-method status="PASS" signature="userName()[pri:1, instance:Test.UserLogin@bd8db5a]" name="userName" duration-ms="47" started-at="2018-04-10T21:09:41Z" finished-at="2018-04-10T21:09:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userName -->
-        <test-method status="PASS" signature="UsertearDown(org.testng.ITestResult)[pri:0, instance:Test.UserLogin@bd8db5a]" name="UsertearDown" is-config="true" duration-ms="0" started-at="2018-04-04T02:02:43Z" finished-at="2018-04-04T02:02:43Z">
+        <test-method status="PASS" signature="UsertearDown(org.testng.ITestResult)[pri:0, instance:Test.UserLogin@bd8db5a]" name="UsertearDown" is-config="true" duration-ms="0" started-at="2018-04-10T21:09:41Z" finished-at="2018-04-10T21:09:41Z">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UsertearDown -->
-        <test-method status="PASS" signature="userNameData()[pri:2, instance:Test.UserLogin@bd8db5a]" name="userNameData" duration-ms="2590" started-at="2018-04-04T02:02:43Z" finished-at="2018-04-04T02:02:45Z">
+        <test-method status="PASS" signature="userNameData()[pri:2, instance:Test.UserLogin@bd8db5a]" name="userNameData" duration-ms="1325" started-at="2018-04-10T21:09:41Z" finished-at="2018-04-10T21:09:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userNameData -->
-        <test-method status="PASS" signature="passWord()[pri:3, instance:Test.UserLogin@bd8db5a]" name="passWord" duration-ms="104" started-at="2018-04-04T02:02:45Z" finished-at="2018-04-04T02:02:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- passWord -->
-        <test-method status="PASS" signature="UsertearDown(org.testng.ITestResult)[pri:0, instance:Test.UserLogin@bd8db5a]" name="UsertearDown" is-config="true" duration-ms="0" started-at="2018-04-04T02:02:45Z" finished-at="2018-04-04T02:02:45Z">
+        <test-method status="PASS" signature="UsertearDown(org.testng.ITestResult)[pri:0, instance:Test.UserLogin@bd8db5a]" name="UsertearDown" is-config="true" duration-ms="1" started-at="2018-04-10T21:09:43Z" finished-at="2018-04-10T21:09:43Z">
           <params>
             <param index="0">
               <value>
@@ -60,11 +56,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UsertearDown -->
-        <test-method status="PASS" signature="passWordData()[pri:4, instance:Test.UserLogin@bd8db5a]" name="passWordData" duration-ms="29420" started-at="2018-04-04T02:02:46Z" finished-at="2018-04-04T02:03:15Z">
+        <test-method status="PASS" signature="passWord()[pri:3, instance:Test.UserLogin@bd8db5a]" name="passWord" duration-ms="77" started-at="2018-04-10T21:09:43Z" finished-at="2018-04-10T21:09:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- passWordData -->
-        <test-method status="PASS" signature="UsertearDown(org.testng.ITestResult)[pri:0, instance:Test.UserLogin@bd8db5a]" name="UsertearDown" is-config="true" duration-ms="0" started-at="2018-04-04T02:02:46Z" finished-at="2018-04-04T02:02:46Z">
+        </test-method> <!-- passWord -->
+        <test-method status="PASS" signature="UsertearDown(org.testng.ITestResult)[pri:0, instance:Test.UserLogin@bd8db5a]" name="UsertearDown" is-config="true" duration-ms="1" started-at="2018-04-10T21:09:43Z" finished-at="2018-04-10T21:09:43Z">
           <params>
             <param index="0">
               <value>
@@ -75,7 +71,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UsertearDown -->
-        <test-method status="PASS" signature="UsertearDown(org.testng.ITestResult)[pri:0, instance:Test.UserLogin@bd8db5a]" name="UsertearDown" is-config="true" duration-ms="0" started-at="2018-04-04T02:03:15Z" finished-at="2018-04-04T02:03:15Z">
+        <test-method status="PASS" signature="passWordData()[pri:4, instance:Test.UserLogin@bd8db5a]" name="passWordData" duration-ms="3245" started-at="2018-04-10T21:09:43Z" finished-at="2018-04-10T21:09:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passWordData -->
+        <test-method status="PASS" signature="UsertearDown(org.testng.ITestResult)[pri:0, instance:Test.UserLogin@bd8db5a]" name="UsertearDown" is-config="true" duration-ms="1" started-at="2018-04-10T21:09:46Z" finished-at="2018-04-10T21:09:46Z">
           <params>
             <param index="0">
               <value>
@@ -88,15 +88,15 @@
         </test-method> <!-- UsertearDown -->
       </class> <!-- Test.UserLogin -->
       <class name="Test.Home">
-        <test-method status="PASS" signature="getDriver()[pri:0, instance:Test.Home@78e67e0a]" name="getDriver" is-config="true" duration-ms="0" started-at="2018-04-04T02:02:37Z" finished-at="2018-04-04T02:02:37Z">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:Test.Home@78e67e0a]" name="getDriver" is-config="true" duration-ms="0" started-at="2018-04-10T21:09:39Z" finished-at="2018-04-10T21:09:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method status="PASS" signature="signIN()[pri:0, instance:Test.Home@78e67e0a]" name="signIN" duration-ms="5055" started-at="2018-04-04T02:02:37Z" finished-at="2018-04-04T02:02:42Z">
+        <test-method status="PASS" signature="signIN()[pri:0, instance:Test.Home@78e67e0a]" name="signIN" duration-ms="976" started-at="2018-04-10T21:09:40Z" finished-at="2018-04-10T21:09:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIN -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.Home@78e67e0a]" name="tearDown" is-config="true" duration-ms="4" started-at="2018-04-04T02:02:42Z" finished-at="2018-04-04T02:02:42Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.Home@78e67e0a]" name="tearDown" is-config="true" duration-ms="6" started-at="2018-04-10T21:09:40Z" finished-at="2018-04-10T21:09:40Z">
           <params>
             <param index="0">
               <value>
@@ -109,23 +109,23 @@
         </test-method> <!-- tearDown -->
       </class> <!-- Test.Home -->
     </test> <!-- Amazon -->
-    <test name="Product" duration-ms="28936" started-at="2018-04-04T02:03:15Z" finished-at="2018-04-04T02:03:44Z">
+    <test name="Product" duration-ms="10258" started-at="2018-04-10T21:09:46Z" finished-at="2018-04-10T21:09:56Z">
       <class name="Util.DriverClass">
-        <test-method status="PASS" signature="webDriverInitiate()[pri:0, instance:Util.DriverClass@3043fe0e]" name="webDriverInitiate" is-config="true" duration-ms="13258" started-at="2018-04-04T02:02:24Z" finished-at="2018-04-04T02:02:37Z">
+        <test-method status="PASS" signature="webDriverInitiate()[pri:0, instance:Util.DriverClass@3043fe0e]" name="webDriverInitiate" is-config="true" duration-ms="10645" started-at="2018-04-10T21:09:29Z" finished-at="2018-04-10T21:09:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webDriverInitiate -->
       </class> <!-- Util.DriverClass -->
       <class name="Test.ProductSearch">
-        <test-method status="PASS" signature="getDriver()[pri:0, instance:Test.ProductSearch@38bc8ab5]" name="getDriver" is-config="true" duration-ms="8" started-at="2018-04-04T02:03:15Z" finished-at="2018-04-04T02:03:15Z">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:Test.ProductSearch@38bc8ab5]" name="getDriver" is-config="true" duration-ms="0" started-at="2018-04-10T21:09:46Z" finished-at="2018-04-10T21:09:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method status="PASS" signature="searchProduct()[pri:1, instance:Test.ProductSearch@38bc8ab5]" name="searchProduct" duration-ms="20755" started-at="2018-04-04T02:03:15Z" finished-at="2018-04-04T02:03:36Z">
+        <test-method status="PASS" signature="searchProduct()[pri:1, instance:Test.ProductSearch@38bc8ab5]" name="searchProduct" duration-ms="3313" started-at="2018-04-10T21:09:46Z" finished-at="2018-04-10T21:09:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.ProductSearch@38bc8ab5]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-04T02:03:36Z" finished-at="2018-04-04T02:03:36Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.ProductSearch@38bc8ab5]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-10T21:09:49Z" finished-at="2018-04-10T21:09:49Z">
           <params>
             <param index="0">
               <value>
@@ -136,15 +136,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="primeCCheck()[pri:3, instance:Test.ProductSearch@38bc8ab5]" name="primeCCheck" duration-ms="397" started-at="2018-04-04T02:03:36Z" finished-at="2018-04-04T02:03:36Z">
+        <test-method status="PASS" signature="primeCCheck()[pri:3, instance:Test.ProductSearch@38bc8ab5]" name="primeCCheck" duration-ms="332" started-at="2018-04-10T21:09:49Z" finished-at="2018-04-10T21:09:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- primeCCheck -->
-        <test-method status="PASS" signature="deliveryCheck()[pri:4, instance:Test.ProductSearch@38bc8ab5]" name="deliveryCheck" duration-ms="3052" started-at="2018-04-04T02:03:36Z" finished-at="2018-04-04T02:03:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deliveryCheck -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.ProductSearch@38bc8ab5]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-04T02:03:36Z" finished-at="2018-04-04T02:03:36Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.ProductSearch@38bc8ab5]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-10T21:09:50Z" finished-at="2018-04-10T21:09:50Z">
           <params>
             <param index="0">
               <value>
@@ -155,7 +151,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.ProductSearch@38bc8ab5]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-04T02:03:39Z" finished-at="2018-04-04T02:03:39Z">
+        <test-method status="PASS" signature="deliveryCheck()[pri:4, instance:Test.ProductSearch@38bc8ab5]" name="deliveryCheck" duration-ms="2077" started-at="2018-04-10T21:09:50Z" finished-at="2018-04-10T21:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deliveryCheck -->
+        <test-method status="PASS" signature="minMaxClick()[pri:5, instance:Test.ProductSearch@38bc8ab5]" name="minMaxClick" duration-ms="4519" started-at="2018-04-10T21:09:52Z" finished-at="2018-04-10T21:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minMaxClick -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.ProductSearch@38bc8ab5]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-10T21:09:52Z" finished-at="2018-04-10T21:09:52Z">
           <params>
             <param index="0">
               <value>
@@ -166,11 +170,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="minMaxClick()[pri:5, instance:Test.ProductSearch@38bc8ab5]" name="minMaxClick" duration-ms="4704" started-at="2018-04-04T02:03:39Z" finished-at="2018-04-04T02:03:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- minMaxClick -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.ProductSearch@38bc8ab5]" name="tearDown" is-config="true" duration-ms="4" started-at="2018-04-04T02:03:44Z" finished-at="2018-04-04T02:03:44Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.ProductSearch@38bc8ab5]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-10T21:09:56Z" finished-at="2018-04-10T21:09:56Z">
           <params>
             <param index="0">
               <value>

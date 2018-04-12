@@ -59,6 +59,16 @@ public class ProductSearch {
  	  //ProductPage.SidePage.minMaxAmt(driver).click();
  	 //ProductPage.TopPage.minMaxAmt.click();
  	}
+  
+  @Test(priority=6)
+ 	public void chooseProduct()
+ 	{
+ 	  //ProductPage.SidePage.deliveryCheckbox(driver).click();
+	  WebElement element= WaitClass.impWait(driver, ProductPage.TopPage.Product);
+	  element.click();
+ 	}
+  
+  
   @AfterMethod
   public void tearDown(ITestResult result) {
      if (result.getStatus() == ITestResult.FAILURE) {
